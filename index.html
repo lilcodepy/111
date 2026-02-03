@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoHost - Local Video Hosting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>VideoHost</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">My Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to VideoHost</h2>
+            <p>Discover amazing videos powered by our recommendation engine</p>
+        </section>
+
+        <section class="video-section">
+            <h2>Trending Now</h2>
+            <div class="videos-grid" id="trending-videos">
+                <!-- Videos will be loaded here -->
+            </div>
+        </section>
+
+        <section class="recommendation-section">
+            <h2>Recommended For You</h2>
+            <div class="videos-grid" id="recommended-videos">
+                <!-- Recommended videos will be loaded here -->
+            </div>
+        </section>
+
+        <section class="algorithm-explanation">
+            <h2>How Our Recommendation Algorithm Works</h2>
+            <div class="algorithm-steps">
+                <div class="step">
+                    <h3>Step 1: Data Collection</h3>
+                    <p>We gather data on your viewing habits, likes, comments, and watch time.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 2: Content Analysis</h3>
+                    <p>Our system analyzes video metadata like tags, categories, descriptions, and topics.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 3: Similarity Matching</h3>
+                    <p>Videos similar to those you've enjoyed are identified using collaborative filtering.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 4: Personalized Recommendations</h3>
+                    <p>Based on your preferences and behavior patterns, we suggest new videos for you.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 VideoHost - Local Video Hosting Solution</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
